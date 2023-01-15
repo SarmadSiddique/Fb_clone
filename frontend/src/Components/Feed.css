@@ -1,0 +1,95 @@
+.feed{
+    padding: 1.4rem 0rem ;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+
+}
+.whats_upp>input{
+width: 100%;
+border-radius: 20px;
+outline: none;
+text-indent:7px;
+    }
+    .file{
+    box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+    }
+    .file>input{
+        width: 102px;
+        /* background-color: transparent; */
+        
+    }
+    .activities{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        cursor: pointer;
+background-color: #FFFFFF;
+
+        padding-left: 1.7rem;
+        box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+
+    }
+    .date{
+        font-size: smaller;
+    
+    }
+    .post_mid{
+        box-shadow: 0px 5px 8px -9px rgba(0,0,0,0.75);
+
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        cursor: pointer;
+
+    }
+    .share>span{
+        margin-left:.3rem;
+    }
+    .comment>span{
+        margin-left:.3rem;
+
+    }
+    .like>span{
+        margin-left:.3rem;
+
+    }
+    .whats_upp
+    {
+        position: relative;
+        top: 18px;
+        left: 5px;
+    }
+    .whats_upp>button{
+        position: absolute;
+        right: 1px;
+        bottom: 2px;
+        width: 100%;    
+        color: transparent;
+    }
+    .whats_upp>input{
+        position: absolute;
+        right: 3px;
+        bottom: 2px;
+    }
+    .poster>span{
+        margin-left: .5rem;
+        font-weight: 500;
+        color: #050505;
+
+    }
+    #keep-mounted-modal-description>form>span>input{
+        
+        font-size: x-large;
+        color: #9FA0A3;
+        width: 100%;
+        margin-top: 17px;
+        border: none;
+        outline: none;
+    
+
+    }
+
+    #keep-mounted-modal-description>form>button{
+        
+       margin-top: 170px;
+
+    }
