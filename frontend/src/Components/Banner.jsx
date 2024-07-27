@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Sidebar from './Sidebar'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -8,6 +8,7 @@ import Post from './Post';
 import avatar from '../Components/assets/junaid.jpg'
 
 const Banner = () => {
+  const [junior ,setJunior]=useState(false)
   return (
     <>
       <div className="banner mt-2">
@@ -18,7 +19,9 @@ const Banner = () => {
 
 
 
-        
+        <h5>
+          hello this is junior code and changes 
+        </h5>
           <Row>
             <Col md={3} sm={3} >
               <Sidebar />
