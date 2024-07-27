@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Stories from './Stories';
 import Feed from './Feed';
 import Post from './Post';
-import avatar from '../Components/assets/junaid.jpg'
+import avatar from '../Components/assets/profile.jpeg'
 
 const Banner = () => {
   return (
@@ -19,13 +19,13 @@ const Banner = () => {
             <Col xs={12} md={6} className="text-center">
               <Stories />
               <Feed />
-              <Post 
-              avatar={avatar}
-              name=" Muhammad Junaid"
-              date="2 june, 2017"
-              content="Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia quam aliquam animi magni consectetur laborum adipisci tempore nam sapiente! Eaque quod illo nam id. Placeat ducimus tenetur eius consectetur nisi molestiae modi veniam rerum odit! Consectetur perspiciatis quaerat delectus"
+              <Post
+                avatar={avatar}
+                name="JS Addictor"
+                date="2 june, 2017"
+                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia quam aliquam animi magni consectetur laborum adipisci tempore nam sapiente! Eaque quod illo nam id. Placeat ducimus tenetur eius consectetur nisi molestiae modi veniam rerum odit! Consectetur perspiciatis quaerat delectus"
 
-               />
+              />
             </Col>
             <Col xs={6} md={3}>
               <div id="fb-root"></div>
@@ -46,7 +46,7 @@ const Banner = () => {
                   <iframe class="embed-responsive-item mt-4" src="https://www.youtube.com/embed/P3RiSG77HV8" ></iframe>
                 </div>
               </div>
-             
+
             </Col>
 
           </Row>

@@ -8,9 +8,9 @@ import ReplyIcon from '@mui/icons-material/Reply';
 const Post = ({ avatar, name, date, content }) => {
     return (
         <>
-        <div className="post">
+            <div className="post">
 
-        </div>
+            </div>
             <div className="post ">
                 <div className="post_profile d-flex align-items-center ">
                     <Avatar src={avatar} />
@@ -25,10 +25,10 @@ const Post = ({ avatar, name, date, content }) => {
                 </div>
                 <div className="post_mid p-2">
                     <div className="content">
-                    {content}
+                        {content}
                     </div>
                     <hr />
-                    <div className="post_reactions d-flex justify-content-around" style={{color:"#606266"}}>
+                    <div className="post_reactions d-flex justify-content-around" style={{ color: "#606266" }}>
                         <div className="like d-flex align-items-center " >
                             <ThumbUpOffAltIcon />
                             <span >Like</span>
@@ -43,7 +43,7 @@ const Post = ({ avatar, name, date, content }) => {
                         </div>
                         <div className="user d-flex align-items-center justify-content-between ">
                             <Avatar src={avatar} sx={{ height: '25px', width: '25px' }} />
-                            <ArrowDropDownIcon/>
+                            <ArrowDropDownIcon />
                         </div>
                     </div>
                 </div>

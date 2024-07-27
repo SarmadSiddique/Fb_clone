@@ -16,14 +16,14 @@ import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
 import './Header.css';
 import { Avatar } from '@mui/material';
-import profile from '../Components/assets/profile.jpg'
+import profile from '../Components/assets/profile.jpeg'
 import Sidebar from './Sidebar';
 const Header = () => {
   return (
     <>
 
       <div className="header_main ">
-      
+
         <Row>
           <Col>
             <div className="d-flex align-items-center">
@@ -65,32 +65,32 @@ const Header = () => {
           <Col>
             <div className="profile_main d-flex align-items-center justify-content-around pt-1">
               <div className="profile_icon_avatar ">
-                <Avatar  sx={{ height: '35px', width: '35px' }} src={profile} />
-                
+                <Avatar sx={{ height: '35px', width: '35px' }} src={profile} />
+
               </div>
               <div className="profile_icon">
                 <AddIcon />
               </div>
               <div className="profile_icon">
-              <ForumIcon/>
+                <ForumIcon />
 
               </div>
               <div className="profile_icon">
                 <NotificationsActiveIcon />
               </div>
-            
+
               <div className="profile_icon">
                 <ArrowDropDownIcon />
               </div>
             </div>
           </Col>
         </Row>
-    
-        
-  
+
+
+
       </div>
- 
- 
+
+
 
 
     </>
