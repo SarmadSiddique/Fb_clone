@@ -9,6 +9,7 @@ import avatar from '../Components/assets/profile.jpeg'
 
 const Banner = () => {
   const [junior ,setJunior]=useState(false)
+  const [senior ,setSenior]=useState(false)
   return (
     <>
       <div className="banner mt-2">
@@ -18,7 +19,9 @@ const Banner = () => {
 
 
 
-
+        <h5>
+          hello this is senior code and changes 
+        </h5>
         <h5>
           hello this is junior code and changes 
         </h5>
