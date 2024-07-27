@@ -9,6 +9,7 @@ import avatar from '../Components/assets/junaid.jpg'
 
 const Banner = () => {
   const [junior ,setJunior]=useState(false)
+  const [junior2,setJunior2]=useState(false)
   return (
     <>
       <div className="banner mt-2">
@@ -21,6 +22,9 @@ const Banner = () => {
 
         <h5>
           hello this is junior code and changes 
+        </h5>
+         <h5>
+          hello this is junior2 code and changes 
         </h5>
           <Row>
             <Col md={3} sm={3} >
