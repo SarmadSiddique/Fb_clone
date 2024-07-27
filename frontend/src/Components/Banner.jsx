@@ -12,7 +12,7 @@ const Banner = () => {
   const [junior2,setJunior2]=useState(false)
   const [senior ,setSenior]=useState(false)
   const [junior3,setJunior3]=useState(false)
-
+const colors =["yellow", "red", "purple"];
   return (
     <>
       <div className="banner mt-2">
