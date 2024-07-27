@@ -12,8 +12,14 @@ const Banner = () => {
   const [junior2,setJunior2]=useState(false)
   const [senior ,setSenior]=useState(false)
   const [junior3,setJunior3]=useState(false)
+<<<<<<< HEAD
 const colors =["yellow", "red", "purple"];
+=======
+  const colors2 =["yellow", "red", "purple"];
+
+>>>>>>> 3fd6486bb0bd297c777e798ea551eeba717df3c4
   return (
+
     <>
       <div className="banner mt-2">
         <div className="sidebar_main">
