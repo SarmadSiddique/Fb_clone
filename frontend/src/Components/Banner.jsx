@@ -10,6 +10,8 @@ import avatar from '../Components/assets/junaid.jpg'
 const Banner = () => {
   const [junior ,setJunior]=useState(false)
   const [junior2,setJunior2]=useState(false)
+  const [junior3,setJunior3]=useState(false)
+
   return (
     <>
       <div className="banner mt-2">
